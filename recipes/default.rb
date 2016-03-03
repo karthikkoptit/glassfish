@@ -32,7 +32,7 @@ remote_file "/tmp/glassfish.sh" do
   owner node[:glassfish][:systemuser]
   source node[:glassfish][:fetch_url]
   mode "0744"
-  checksum "6d4a20f14de"
+  checksum "493aa5d4fac0f34df01b07c7d276f1da8d5139df82374c599ab932e740d52147"
 end
 
 answer_file = "/tmp/v3-prelude-answer"
