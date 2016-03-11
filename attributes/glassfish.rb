@@ -67,7 +67,7 @@ set_unless[:glassfish][:ANONYMOUS]="ANONYMOUS"
 #glassfish.Administration.LOGIN_MODE=true
 set_unless[:glassfish][:LOGIN_MODE]="true"
 #glassfish.Administration.HTTP_PORT=8080
-set_unless[:glassfish][:HTTP_PORT]="8081"
+set_unless[:glassfish][:HTTP_PORT]="81"
 # Can be set to anonymous or non_anonymous, to require administrator to log in with user name and password.
 # glassfish.Administration.NON_ANONYMOUS=NON_ANONYMOUS
 set_unless[:glassfish][:NON_ANONYMOUS]="NON_ANONYMOUS"
