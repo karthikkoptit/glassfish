@@ -4,9 +4,9 @@ set_unless[:glassfish][:systemuser]="glassfish"
 #unix system group
 set_unless[:glassfish][:systemgroup]="glassfish"
 # fetch_url
-set_unless[:glassfish][:fetch_url]="http://download.java.net/glassfish/v3-prelude/promoted/glassfish-v3-prelude-b28f-unix.sh"
+set_unless[:glassfish][:fetch_url]="http://download.oracle.com/glassfish/4.0/release/glassfish-4.0-web-unix.sh"
 #InstallHome.directory.INSTALL_HOME=
-set_unless[:glassfish][:INSTALL_HOME]="/opt/glassfishv3-prelude"
+set_unless[:glassfish][:INSTALL_HOME]="/opt/glassfish4.0"
 #License.license.ACCEPT_LICENSE=0
 set_unless[:glassfish][:ACCEPT_LICENSE]="0"
 #RegistrationOptions.regoptions.CREATE_NEWACCT=CREATE_NEWACCT
